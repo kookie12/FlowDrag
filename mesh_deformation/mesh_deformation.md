@@ -26,11 +26,11 @@ The mesh deformation process consists of the following steps:
 ### 1. Point Selection
 
 <div align="center">
-  <img src="figs/fig_dog1.png" alt="Point Selection Example" width="500">
+  <img src="figs/fig_dog1.png" alt="Point Selection Example" width="800">
 </div>
 
 <div align="center">
-  <img src="figs/fig_dog2.png" alt="Point Selection Example" width="500">
+  <img src="figs/fig_dog2.png" alt="Point Selection Example" width="800">
 </div>
 
 **Action:** Click the **"Select Points on Mesh"** button to open the 3D visualization window.
@@ -53,7 +53,7 @@ The mesh deformation process consists of the following steps:
 ### 2. Adjust Target Vertices
 
 <div align="center">
-  <img src="figs/fig_dog3.png" alt="Point Selection Example" width="500">
+  <img src="figs/fig_dog3.png" alt="Point Selection Example" width="800">
 </div>
 
 After returning to the control panel, you can fine-tune target point positions:
@@ -67,7 +67,7 @@ After returning to the control panel, you can fine-tune target point positions:
 ### 3. Load Mask
 
 <div align="center">
-  <img src="figs/fig_dog4.png" alt="Point Selection Example" width="500">
+  <img src="figs/fig_dog4.png" alt="Point Selection Example" width="800">
 </div>
 
 Define which regions of the mesh can be deformed:
@@ -124,7 +124,7 @@ For more precise control over movable and constraint regions:
 ### 6. Apply SR-ARAP Deformation
 
 <div align="center">
-  <img src="figs/fig_dog5.png" alt="Point Selection Example" width="500">
+  <img src="figs/fig_dog5.png" alt="Point Selection Example" width="800">
 </div>
 
 Execute the deformation:
@@ -210,7 +210,7 @@ flow_field = np.load('flow_field_outputs/{sample_name}/2d_vector_flow_field.npy'
 This example demonstrates head rotation editing using the mesh deformation UI:
 
 <div align="center">
-  <img src="figs/fig_woman.png" alt="Woman head rotation example" width="500">
+  <img src="figs/fig_woman.png" alt="Woman head rotation example" width="800">
 </div>
 
 ### Squirrel Example
@@ -218,7 +218,7 @@ This example demonstrates head rotation editing using the mesh deformation UI:
 This example showcases skeleton-based constraints (light blue regions) for articulated motion:
 
 <div align="center">
-  <img src="figs/fig_squirrel.png" alt="Squirrel skeleton-based editing example" width="500">
+  <img src="figs/fig_squirrel.png" alt="Squirrel skeleton-based editing example" width="800">
 </div>
 
 
