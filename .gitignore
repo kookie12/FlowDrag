@@ -1,0 +1,47 @@
+# Evaluation results
+/evaluation/
+/VFD_Bench_result_flowdrag/
+/VFD_Bench_result_gooddrag/
+
+# LoRA data
+/lora_data/
+
+# Local pretrained models
+/local_pretrained_models/
+
+# Results and outputs
+/result/
+/samples/*/output*.png
+/samples/*/new_points*.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+environment.yaml
+requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# python file
+delete_flowdrag_images.py
