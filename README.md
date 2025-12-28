@@ -58,8 +58,6 @@ cd FlowDrag
 conda env create -f environment_flowdrag.yaml
 conda activate flowdrag
 
-# Set environment variables (optional)
-export SD_15_PATH="path/to/stable-diffusion-v1-5"
 ```
 
 ## 🚀 Usage
